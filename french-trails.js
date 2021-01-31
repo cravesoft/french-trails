@@ -6,8 +6,8 @@ const title = document.getElementById("title");
 const subtitle = document.getElementById("subtitle");
 
 // Define API Keys (replace these with your own!)
-const NASADEM_APIKEY = null;
-const ARCGIS_APIKEY = null;
+const NASADEM_APIKEY = "1042b501005bb4b45abe360dc7b17546e";
+const ARCGIS_APIKEY = "ff8nyjqym1ym7bz3mw6mpehc";
 if (!NASADEM_APIKEY || !ARCGIS_APIKEY) {
   const error = Error("Modify index.html to include API keys");
   container.innerHTML = error;
