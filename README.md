@@ -1,7 +1,9 @@
-# Peaks of Austria
+# French Trails
 
-[VIEW MAP](http://felixpalmer.github.io/peaks-of-austria)
+[VIEW MAP](http://cravesoft.github.io/french-trails)
 
-Explore the peaks of Austria in 3D in your browser, both on the desktop and mobile.
+Explore french trails in 3D in your browser, both on the desktop and mobile.
 
-This code is an example integration of [Procedural GL JS](https://github.com/felixpalmer/procedural-gl-js/) library.
+Inspired by [Peaks of Austria](https://github.com/felixpalmer/peaks-of-austria).
+
+This code is powered by [Procedural GL JS](https://github.com/felixpalmer/procedural-gl-js/) library.
