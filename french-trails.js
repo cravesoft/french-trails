@@ -6,9 +6,9 @@ const title = document.getElementById("title");
 const subtitle = document.getElementById("subtitle");
 
 // Define API Keys (replace these with your own!)
-const NASADEM_APIKEY = "1042b501005bb4b45abe360dc7b17546e";
+const MAPTILER_APIKEY = "0IlMp17ADBjKdUjwsIhj";
 const ARCGIS_APIKEY = "ff8nyjqym1ym7bz3mw6mpehc";
-if (!NASADEM_APIKEY || !ARCGIS_APIKEY) {
+if (!MAPTILER_APIKEY || !ARCGIS_APIKEY) {
   const error = Error("Modify index.html to include API keys");
   container.innerHTML = error;
   throw error;
@@ -16,7 +16,11 @@ if (!NASADEM_APIKEY || !ARCGIS_APIKEY) {
 
 const datasource = {
   elevation: {
-    apiKey: NASADEM_APIKEY,
+    apiKey: MAPTILER_APIKEY,
+    pixelFormat: 'terrain-rgb',
+    maxZoom: 12,
+    pixelEncoding: 'terrain-rgb',
+    urlFormat: 'https://api.maptiler.com/tiles/terrain-rgb/{z}/{x}/{y}.png?key={apiKey}',
   },
   imagery: {
     apiKey: ARCGIS_APIKEY,
