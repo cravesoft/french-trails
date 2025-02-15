@@ -8,16 +8,12 @@
         "coordinates": [6.865217791451906, 45.83321949365825]
       },
       "properties": {
-        "name": "Le Tour du Mont Blanc",
-        "code": "TMB",
+        "name": "GR Tour du Mont-Blanc",
+        "code": "GR-TMB",
         "distance": "170",
         "length": "7-10 days",
-        "elevation": {
-          "min": "-10.000",
-          "max": "+10.000"
-        },
         "difficulty": "Moderate",
-        "gpx": "tour_du_mont_blanc.gpx",
+        "gpx": "tour-du-mont-blanc.gpx",
         "points": [
           {
             "name": "Aiguille de Bionnassay",
@@ -105,16 +101,12 @@
         "coordinates": [9.133863194279673, 42.129379933486675]
       },
       "properties": {
-        "name": "La Corse du Nord au Sud",
-        "code": "GR 20",
+        "name": "GR 20 : La Corse du Nord au Sud",
+        "code": "GR-20",
         "distance": "179",
         "length": "2 weeks",
-        "elevation": {
-          "min": "-0.000",
-          "max": "+11.000"
-        },
         "difficulty": "Hard",
-        "gpx": "corse_du_nord_au_sud.gpx",
+        "gpx": "corse-du-nord-au-sud.gpx",
         "points": [
           {
             "name": "Cirque de la solitude",
@@ -155,19 +147,113 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [6.260415511132316, 44.89402084695794]
+      },
+      "properties": {
+        "name": "GR 54 : Tour de l'Oisans et des Ecrins",
+        "code": "GR-54",
+        "distance": "189",
+        "length": "11 days",
+        "difficulty": "Hard",
+        "gpx": "gr-54.gpx",
+        "points": [
+          {
+            "name": "Glacier de la Girose",
+            "coordinates": [6.251510590434926, 45.00801190240906]
+          },
+          {
+            "name": "Meije",
+            "coordinates": [6.309869269840454, 45.00599952707787]
+          },
+          {
+            "name": "Grande Ruine",
+            "coordinates": [6.334356943788622, 44.969171969939694]
+          },
+          {
+            "name": "Glacier Blanc",
+            "coordinates": [6.386008098245224, 44.94281266516143]
+          },
+          {
+            "name": "Barre des Ecrins",
+            "coordinates": [6.364892235757465, 44.92340919375992]
+          },
+          {
+            "name": "Pic Coolidge",
+            "coordinates": [6.359330145829238, 44.91137595726838]
+          },
+          {
+            "name": "Glacier Noir",
+            "coordinates": [6.386804084469051, 44.91747790812943]
+          },
+          {
+            "name": "Mont Pelvoux",
+            "coordinates": [6.404361082278565, 44.90014805108391]
+          },
+          {
+            "name": "Glacier du Vallon des Etages",
+            "coordinates": [6.257498724355432, 44.89796157980764]
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [6.827895666321505, 45.401461171953734]
+      },
+      "properties": {
+        "name": "GR 55 : De Tignes à Modane",
+        "code": "GR-55",
+        "distance": "56",
+        "length": "3 days",
+        "difficulty": "Moderate",
+        "gpx": "gr-55.gpx",
+        "points": [
+          {
+            "name": "Glacier de la Grande Motte",
+            "coordinates": [6.885767681166933, 45.421343525408204]
+          },
+          {
+            "name": "Grande Motte",
+            "coordinates": [6.876791421929053, 45.411577524738526]
+          },
+          {
+            "name": "Grande Casse",
+            "coordinates": [6.831963083291134, 45.40666157663881]
+          },
+          {
+            "name": "Pointe Mathews",
+            "coordinates": [6.826978498084137, 45.40072815479714]
+          },
+          {
+            "name": "Pointe de la Fournache",
+            "coordinates": [6.752740428404493, 45.287503730437315]
+          },
+          {
+            "name": "Roche Chevrière",
+            "coordinates": [6.704581419461605, 45.29286670268169]
+          },
+          {
+            "name": "Pointe de l'Échelle",
+            "coordinates": [6.685055234788157, 45.2692348441621]
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [6.831247713242294, 44.683841113680415]
       },
       "properties": {
-        "name": "Le Tour du Queyras",
-        "code": "GR 58",
+        "name": "GR 58 : Tour du Queyras",
+        "code": "GR-58",
         "distance": "128",
         "length": "8 days",
-        "elevation": {
-          "min": "-7.700",
-          "max": "+7.000"
-        },
         "difficulty": "Moderate",
-        "gpx": "tour_du_queyras.gpx",
+        "gpx": "tour-du-queyras.gpx",
         "points": [
           {
             "name": "Col des Estronques",
@@ -216,19 +302,56 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [-61.721823720618666, 16.13571160561537]
+      },
+      "properties": {
+        "name": "GR G1 : Guadeloupe Trace des Alizés",
+        "code": "GR-G1",
+        "distance": "85",
+        "length": "6 days",
+        "difficulty": "Hard",
+        "gpx": "grr-g1-guadeloupe-trace-des-alizes.gpx",
+        "points": [
+          {
+            "name": "Tete Allegre",
+            "coordinates": [-61.73620819856562, 16.27179019252935]
+          },
+          {
+            "name": "Pitons de Bouillante",
+            "coordinates": [-61.721823720618666, 16.13571160561537]
+          },
+          {
+            "name": "Carmichael",
+            "coordinates": [-61.656603952842936, 16.056277422828998]
+          },
+          {
+            "name": "Grande Soufrière",
+            "coordinates": [-61.662866661251805, 16.044436928458136]
+          },
+          {
+            "name": "Citerne",
+            "coordinates": [-61.652400226881234, 16.035402787568398]
+          },
+          {
+            "name": "Morne Grande Voûte",
+            "coordinates": [-61.691816014280825, 15.973158981239356]
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [55.4811297952491, -21.08610904931653]
       },
       "properties": {
-        "name": "La Traversée de la Réunion",
-        "code": "GR R2",
+        "name": "GR R2 : La Traversée de la Réunion",
+        "code": "GR-R2",
         "distance": "145",
         "length": "10 days",
-        "elevation": {
-          "min": "-8.982",
-          "max": "+8.969"
-        },
         "difficulty": "Moderate",
-        "gpx": "traversee_de_la_reunion.gpx",
+        "gpx": "traversee-de-la-reunion.gpx",
         "points": [
           {
             "name": "Roche Écrite",
@@ -261,6 +384,146 @@
           {
             "name": "Piton de la Fournaise",
             "coordinates": [55.7086687181129, -21.240641663861954]
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [6.928977606486259, 46.162160774034696]
+      },
+      "properties": {
+        "name": "GRP : Tour des Dents du Midi",
+        "code": "grp-tour-des-dents-du-midi",
+        "distance": "48",
+        "length": "4 days",
+        "difficulty": "Moderate",
+        "gpx": "grp-tour-des-dents-du-midi.gpx",
+        "points": [
+          {
+            "name": "Cime de l'Est",
+            "coordinates": [6.948100035494209, 46.17287031196746]
+          },
+          {
+            "name": "La Forteresse",
+            "coordinates": [6.938728470303812, 46.17111523211488]
+          },
+          {
+            "name": "La Cathédrale",
+            "coordinates": [6.936274257982256, 46.169668460330115]
+          },
+          {
+            "name": "L'Eperon",
+            "coordinates": [6.93220500844877, 46.16775913930391]
+          },
+          {
+            "name": "Dent Jaune",
+            "coordinates": [6.929230081283204, 46.166047038074005]
+          },
+          {
+            "name": "Doigts de Salanfe",
+            "coordinates": [6.925401315086041, 46.163477127960185]
+          },
+          {
+            "name": "Haute Cime",
+            "coordinates": [6.922911335168758, 46.16145440918973]
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.000675253181784, 44.69250219399319]
+      },
+      "properties": {
+        "name": "GRP : Tour du Pain de Sucre",
+        "code": "grp-tour-du-pain-de-sucre",
+        "distance": "46",
+        "length": "4 days",
+        "difficulty": "Moderate",
+        "gpx": "grp-tour-du-pain-de-sucre.gpx",
+        "points": [
+          {
+            "name": "Col Agnel",
+            "coordinates": [6.979522333540309, 44.68398522524258]
+          },
+          {
+            "name": "Monviso",
+            "coordinates": [7.090381074643271, 44.66731676627999]
+          },
+          {
+            "name": "Mont Meidassa",
+            "coordinates": [7.072221225035385, 44.71916763957251]
+          },
+          {
+            "name": "Le Pain de Sucre",
+            "coordinates": [6.99638786520678, 44.690279108313405]
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-0.4373548854190112, 42.84385177442674]
+      },
+      "properties": {
+        "name": "GRP : Tour du Pic du Midi d'Ossau",
+        "code": "grp-grand-tour-du-pic-du-midi-d-ossau",
+        "distance": "22",
+        "length": "2 days",
+        "difficulty": "Hard",
+        "gpx": "grp-grand-tour-du-pic-du-midi-d-ossau.gpx",
+        "points": [
+          {
+            "name": "Pic du Midi d'Ossau",
+            "coordinates": [-0.4373548854190112, 42.84385177442674]
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [6.76989268606662, 45.363464628305074]
+      },
+      "properties": {
+        "name": "TGV : Tour des Glaciers de la Vanoise",
+        "code": "TGV",
+        "distance": "82",
+        "length": "7 days",
+        "difficulty": "Moderate",
+        "gpx": "tour-des-glaciers-de-la-vanoise.gpx",
+        "points": [
+          {
+            "name": "Pointe de la Réchasse",
+            "coordinates": [6.801947725492603, 45.373440575336204]
+          },
+          {
+            "name": "Grande Motte",
+            "coordinates": [6.872499331814513, 45.41055452227298]
+          },
+          {
+            "name": "Grande Casse",
+            "coordinates": [6.827500711188065, 45.405277240088274]
+          },
+          {
+            "name": "Pointe du Dard",
+            "coordinates": [6.7654147792743204, 45.36375718726279]
+          },
+          {
+            "name": "Dôme de l'Arpont",
+            "coordinates": [6.743842145415966, 45.3186927262319]
+          },
+          {
+            "name": "Dôme de Polset",
+            "coordinates": [6.640475239786705, 45.27711354093364]
           }
         ]
       }

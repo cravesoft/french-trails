@@ -187,7 +187,14 @@ fetch("trails.geojson")
       p = document.createElement("p");
       p.innerHTML = `${trail.properties.distance} km (${trail.properties.length})`;
       li.appendChild(p);
-      li.style.backgroundImage = `url(images/${i % 4}.jpg)`;
+      p = document.createElement("p");
+      p.innerHTML = `${trail.properties.difficulty}`;
+      if (trail.properties.difficulty === "Hard")
+        p.style.background = "red";
+      else
+        p.style.background = "green";
+      li.appendChild(p);
+      li.style.backgroundImage = `url(images/${trail.properties.code}.jpg)`;
       trailList.appendChild(li);
       li.addEventListener("click", () => loadTrail(trail));
     });
