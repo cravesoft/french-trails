@@ -126,7 +126,6 @@ function loadTrail(feature) {
   fetch(`gpx/${gpx}`)
     .then((data) => data.text())
     .then((xml) => {
-      console.log("load track");
       const gpx = new gpxParser();
       gpx.parse(xml);
       const totalDistance = gpx.tracks[0].distance.total;
@@ -175,10 +174,6 @@ title.addEventListener("click", () => {
 fetch("trails.geojson")
   .then((data) => data.json())
   .then((trails) => {
-    // Display first trail location
-    const [longitude, latitude] = trails.features[0].geometry.coordinates;
-    Procedural.displayLocation({ latitude, longitude });
-
     trails.features.forEach((trail, i) => {
       const li = document.createElement("li");
       let p = document.createElement("p");
@@ -206,4 +201,8 @@ fetch("trails.geojson")
         loadTrail(trail);
       }
     };
+
+    // Display first trail location
+    loadTrail(trails.features[0]);
+    trailListOverlay.classList.remove("hidden");
   });
